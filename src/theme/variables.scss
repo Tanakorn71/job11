@@ -1,0 +1,19 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-blackblue: #ac50cd;
+	--ion-color-blackblue-rgb: 0,30,255;
+	--ion-color-blackblue-contrast: #ffffff;
+	--ion-color-blackblue-contrast-rgb: 255,255,255;
+	--ion-color-blackblue-shade: #001ae0;
+	--ion-color-blackblue-tint: #1a35ff;
+}
+
+.ion-color-blackblue {
+	--ion-color-base: var(--ion-color-blackblue);
+	--ion-color-base-rgb: var(--ion-color-blackblue-rgb);
+	--ion-color-contrast: var(--ion-color-blackblue-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-blackblue-contrast-rgb);
+	--ion-color-shade: var(--ion-color-blackblue-shade);
+	--ion-color-tint: var(--ion-color-blackblue-tint);
+}
